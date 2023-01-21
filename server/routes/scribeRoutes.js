@@ -13,7 +13,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 router.route('/').get((req, res) => {
-  res.status(200).json({ message: 'Hello from Scribe!' });
+  res.status(200).json({ message: 'whats up from Scribe!' });
 });
 
 router.route('/').post(async (req, res) => {
